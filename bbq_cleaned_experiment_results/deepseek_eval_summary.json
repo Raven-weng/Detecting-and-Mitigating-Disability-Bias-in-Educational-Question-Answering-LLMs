@@ -1,0 +1,20 @@
+{
+  "jsonl": "E:\\desktop\\CDS546 Project Topics (AY2025-26)(2)\\newdataset_rwj\\BBQ_cleaned.jsonl",
+  "checkpoint": "E:\\desktop\\CDS546 Project Topics (AY2025-26)(2)\\tune\\bbq_cleaned_ckpt_deepseek_20260502_175718.json",
+  "samples_evaluated": 1560,
+  "overall_accuracy": 0.4480769230769231,
+  "bias_scores": {
+    "nonneg_bias_score": 0.6021505376344086,
+    "neg_bias_score": 0.6139705882352942,
+    "overall_bias_score": 0.6080605629348514,
+    "nonneg_total": 744,
+    "neg_total": 816
+  },
+  "accuracy_by_condition": {
+    "ambig_accuracy": 0.33157894736842103,
+    "disambig_accuracy": 0.55875,
+    "overall_accuracy": 0.4480769230769231,
+    "ambig_total": 760,
+    "disambig_total": 800
+  }
+}

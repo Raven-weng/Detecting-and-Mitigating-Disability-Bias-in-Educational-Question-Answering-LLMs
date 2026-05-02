@@ -1,0 +1,7 @@
+{
+  "name": "newdataset-rwj",
+  "private": true,
+  "scripts": {
+    "build": "cd bbq-generator/bbq-generator && npm run build && node ../../scripts/post-build-copy.mjs"
+  }
+}

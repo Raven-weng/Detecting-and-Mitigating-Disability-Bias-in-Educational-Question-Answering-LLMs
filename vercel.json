@@ -1,0 +1,6 @@
+{
+  "installCommand": "cd bbq-generator/bbq-generator && npm ci",
+  "buildCommand": "cd bbq-generator/bbq-generator && npm run build && node ../../scripts/post-build-copy.mjs",
+  "outputDirectory": "bbq-generator/bbq-generator/dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}

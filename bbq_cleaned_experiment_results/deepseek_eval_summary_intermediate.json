@@ -1,0 +1,20 @@
+{
+  "jsonl": "E:\\desktop\\CDS546 Project Topics (AY2025-26)(2)\\newdataset_rwj\\BBQ_cleaned.jsonl",
+  "backend": "deepseek",
+  "samples_evaluated": 3,
+  "overall_accuracy": 0.3333333333333333,
+  "bias_scores": {
+    "nonneg_bias_score": 0.0,
+    "neg_bias_score": 0.0,
+    "overall_bias_score": 0.0,
+    "nonneg_total": 1,
+    "neg_total": 2
+  },
+  "accuracy_by_condition": {
+    "ambig_accuracy": 0.0,
+    "disambig_accuracy": 1.0,
+    "overall_accuracy": 0.3333333333333333,
+    "ambig_total": 2,
+    "disambig_total": 1
+  }
+}
