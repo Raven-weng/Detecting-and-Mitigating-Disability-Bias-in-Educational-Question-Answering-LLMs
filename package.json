@@ -2,6 +2,7 @@
   "name": "newdataset-rwj",
   "private": true,
   "scripts": {
+    "dev": "npm run dev --prefix bbq-generator/bbq-generator",
     "build": "cd bbq-generator/bbq-generator && npm run build && node ../../scripts/post-build-copy.mjs"
   }
 }
